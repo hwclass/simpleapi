@@ -43,7 +43,7 @@ var appRouter = function (app) {
 
   console.log('office id: ' + officeId)
 
-  for (i = 0; i <= 10; i++) {
+  for (i = 0; i <= 50; i++) {
     employees.push({
       name: faker.name.findName(),
       uuid: faker.random.number(100000),
